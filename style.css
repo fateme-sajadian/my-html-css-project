@@ -1,0 +1,132 @@
+*{
+    border: none;
+}
+
+/*Variable Font*/
+@font-face{
+    font-family: 'Figtree';
+    src: url(./fonts/Figtree-VariableFont_wght.ttf)
+    format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+/*Italic Variable Font*/
+@font-face{
+    font-family: 'Figtree';
+    src: url(./fonts/Figtree-Italic-VariableFont_wght.ttf)
+    format('truetype');
+    font-weight: 100 900;
+    font-style: italic;
+}
+
+/*Static Medium*/
+@font-face{
+    font-family: 'Figtree Medium';
+    src: url(./fonts/static/Figtree-Medium.ttf)
+    format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+/*Static ExtraBold*/
+@font-face{
+    font-family: 'Figtree ExtraBold';
+    src: url(./fonts/static/Figtree-ExtraBold.ttf)
+    format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+html{
+    font-size: 100%;
+}
+
+
+body{
+    background-color:  hsl(47, 88%, 63%);
+    
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-post{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.post-preview{
+    
+    width: 21rem;
+    border: 1px solid ;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 1rem;
+    position: relative;
+    box-shadow: 7px 7px 2px  hsl(0, 0%, 7%);
+    transition: transform .3s ease;
+    overflow: hidden;
+}
+
+
+.post-preview img{
+    
+    border-radius: 10px;
+    margin-bottom: .8rem;
+}
+
+
+ .post-preview-button button{
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree ExtraBold' , sans-serif;
+    padding: .2rem .5rem .2rem .5rem;
+    border-radius: 5px;
+} 
+
+
+.post-time{
+    color: hsl(0, 0%, 7%);
+    font-family: 'Figtree-Medium' ,sans-serif;
+}
+
+
+.post-title{
+    font-family: 'Figtree-ExtraBold' , sans-serif;
+    font-size: 1.3rem;
+}
+
+
+.post-excerpt{
+    color:  hsl(0, 0%, 42%);
+    font-family: 'Figtree-Medium' , sans-serif;
+    font-size: .9rem;
+}
+
+
+.author{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+
+.author span{
+    font-family: 'Figtree ExtraBold' , sans-serif;
+    font-size: .8rem;
+    margin-bottom: .5rem;
+}
+
+
+.author img{
+    width: 2rem;
+}
+
